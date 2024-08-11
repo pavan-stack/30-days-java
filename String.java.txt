@@ -1,0 +1,31 @@
+//"String" are classes S1.charAt(3) for accessing a element in the index as String is class we do it
+//'char'
+//in java + operator using strings then concatenation which means attachment
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        //creation
+        String s = "vamsi bhavani";//method 1 of creating Strings String literal way or method 2 new object way String s = new String();
+        String sdub = "vamsi bhavani";
+       //creation 
+        String s1 = new String("Vamsi bhavani");//not recomended
+        String s1dub = new String("Vamsi bhavani");
+        System.out.println(s);
+        System.out.println(sdub);
+        System.out.println(s1);//not recommended
+        System.out.println(s1dub);
+        System.out.println(s.charAt(2));
+        Scanner scan = new Scanner(System.in);
+        
+    }
+}
+
+//string builder and string buffer can be modified and String literals can't be modified
+
+//String buffer can support multi threading and string builder doesn't support multi threads
+
+//Creation of string builder and String buffer
+
+StringBuffer sb = new StringBuffer("");
+StringBuffer sbuild = new StringBuilder("");
