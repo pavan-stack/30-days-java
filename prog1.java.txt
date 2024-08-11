@@ -1,0 +1,20 @@
+// String can't be used for return type of Int
+class HelloWorld {
+    
+public String getSum(int a, int b)
+{
+    int sum = a +b;
+    return sum;
+}
+
+
+
+
+    public static void main(String[] args) {
+        HelloWorld h = new HelloWorld();
+        System.out.println(h.getSum(3,4));
+    }
+}
+
+
+Actual: int getSum(int a, int b)

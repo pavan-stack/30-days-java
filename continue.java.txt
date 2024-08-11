@@ -1,0 +1,27 @@
+public class Solution{
+public static void main(String[] args){
+int i=0;
+
+//only in while
+while (i<5){
+    if(i==2){
+        i++;//here i++ because it falls in infinite loop;//skips all lines and go back to i==2
+        continue;
+    }
+    System.out.println(i);
+
+}
+}
+}
+
+public class Solution{
+public static void main(String[] args){
+for(int i=0;i<5;i++){
+    if(i==2){
+       
+        continue;
+    }
+    System.out.println(i);
+}
+}
+}

@@ -1,0 +1,24 @@
+public class Solution{//Static void is used for 
+public static void func(int c, int d){
+    System.out.println(c+"  "+d);
+}
+
+public static void main(String[] args){
+int a = 10;
+int b = 20;
+func(a);//can't pass only one and creating without creating the method
+}
+}
+
+Actual:
+public class Solution{
+public static void func(int c, int d){
+    System.out.println(c+"  "+d);
+}
+
+public static void main(String[] args){
+int a = 10;
+int b = 20;
+func(a,b);//Solution.func(a,b);
+}
+}
