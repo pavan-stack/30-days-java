@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Solution{
+public static void main(String[] args){
+int arr[][] = new int[2][3];
+//waste arr[0]=1;arr[1]=2;arr[2]=3;arr[3]=4;arr[4]=5;
+Scanner s = new Scanner(System.in);
+  //taking all 5 it displays this but it goes and assign as arr[0 to 5]
+for(int i=0;i<2;i++)//rows in 1d this is rows
+{
+    for(int j=0; j<3; j++)//colums
+    {
+        System.out.println("Row"+(i+1)+"column"+(j+1) );
+        arr[i][j]=s.nextInt();
+    
+    }
+}
+
+for(int i=0;i<2;i++)//rows
+{
+    for(int j=0; j<3; j++){//columns
+  System.out.print(arr[i][j]+" ");
+}
+ System.out.println(" ");
+}
+}
+}
